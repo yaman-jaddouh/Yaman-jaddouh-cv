@@ -1,0 +1,154 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --main-color : #2196f3;
+    --main-color-alt: #1787e0;
+    --main-transition : 0.3s;
+}
+
+
+a { 
+    text-decoration: none;
+}
+html { 
+    scroll-behavior: smooth;
+}
+body { 
+        font-family: 'Cairo' , sans-serif;
+        width: 100vw;
+}
+ul { 
+list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container { 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Small  */
+@media (min-width :768px)
+{
+    .container {
+        width: 750px;
+    }
+}
+/* Medium  */
+@media (min-width :992px)
+{
+    .container {
+        width: 970px;
+    }
+}
+/* large  */
+@media (min-width :1200px)
+{
+    .container {
+        width: 1170px;
+    }
+}
+
+
+.main-title { 
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid black
+}
+.list { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.list ul { 
+   list-style: disc !important;
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+}
+body>div { 
+    margin-bottom: 20px;
+}
+/* end global  */
+/* ddf */
+/* start header  */
+.header{
+    background-color: #a4a4a4;
+    color: white;
+    max-width: 100%;
+
+}
+.header .container { 
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+.header .container .contact  { 
+    display: flex;
+    flex-direction: column;
+}
+.header .container .contact  ul{ 
+display: flex;
+gap: 20px;
+
+}
+
+.header .container .contact ul li a{ 
+    font-size: 40px;
+    color: white;
+}
+.facebook:hover i {
+    transition:0.1s;
+    color: #4267B2; 
+}
+.telegram:hover i {
+    transition:0.1s;
+    color: #0088cc;
+}
+.whatsapp:hover i {
+    transition:0.1s;
+    color:  #25D366; 
+}
+    
+
+.header .container h1 { 
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.header .container>ul { 
+    margin: 10px;
+}
+.header .container ul ul { 
+    margin-bottom: 8px;
+}
+.header .container ul ul li:first-child { 
+    font-weight: bold;
+    font-size: 22px;
+}
+/* end header */
+
+/* start summary  */
+
+
+
+
+.footer { 
+    /* display: block; */
+  
+    margin-top: 40px;
+    height: 50px;
+    background-color: #a4a4a4;
+}
