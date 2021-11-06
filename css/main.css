@@ -76,7 +76,12 @@ body>div {
     background-color: #3f51b5;
     color: white;
     max-width: 100%;
+    
 
+}
+.header .container ul { 
+    list-style: none;
+    margin: 0 auto;
 }
 .header .container { 
     display:  flex;
@@ -89,12 +94,11 @@ body>div {
 .header .container .contact  { 
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 .header .container .contact  ul{ 
 display: flex;
 gap: 20px;
-list-style: none;
-
 }
 
 .header .container .contact ul li a{ 
