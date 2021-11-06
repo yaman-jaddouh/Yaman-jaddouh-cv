@@ -95,6 +95,7 @@ body>div {
 .header .container .contact  ul{ 
 display: flex;
 gap: 20px;
+list-style: none;
 
 }
 
@@ -102,6 +103,7 @@ gap: 20px;
     font-size: 40px;
     color: white;
 }
+
 /* .facebook:hover i {
     transition:0.1s;
     color: #4267B2; 
