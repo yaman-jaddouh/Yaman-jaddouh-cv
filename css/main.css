@@ -157,6 +157,9 @@ gap: 20px;
     .header .container h1  { 
         font-size: 40px;
     }
+    .header .container ul { 
+        padding: 0;
+    }
 }
 .header .container>ul { 
     margin: 10px;
